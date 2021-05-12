@@ -1,3 +1,12 @@
+#About
+
+A simple website design for a bakery/cake decorator.
+
+Built with: 
+    React
+    CSS
+    Email.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
