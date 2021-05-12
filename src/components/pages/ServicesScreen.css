@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+body{
+    background-color: #F6F1EE;
+}
+
+.services-title{
+    font-family: 'Pacifico', cursive;
+    background-color: #fadfd1;
+    text-align: center;
+    font-size: 40px;
+    color: #303036;
+}
+
+.menu-img{
+    width: 100%;
+}
+
+.pricing-container{
+    text-align: center;
+}
+
+.pricing-container p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hide {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+}
+
+.flavors-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.8;
+}
+
+.flavors-item{
+    padding: 5px;
+    text-align: center;
+    margin: 5px 20px;
+    padding: 15px 50px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 8px #F6C270;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #303036;
+}
+
+.flavor-title{
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+}
+
+@media screen and (min-width: 800px) {
+    .menu-container{
+        justify-content: center;
+    }
+
+    .services-title{
+            font-family: 'Pacifico', cursive;
+            margin: 20px 450px;
+            padding: 5px;
+            background-color: #fadfd1;
+            text-align: center;
+            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+            border: solid 5px #fadfd1;
+            font-size: 45px;
+            color: #303036;
+    }
+
+    .menu-img{
+        height:150px;
+        width: 150px;
+    }
+
+    .menu-list{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-item{
+        position: relative;
+        height: 320px;
+        width: 320px;
+        margin: 10px 50px;
+    }
+
+    .hide {
+        display: none
+    }
+
+    .menu-item:hover{
+        opacity: 0.5;
+    }
+    
+    .menu-item:hover + .hide {
+        display: block;
+        margin-top: -210px;
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        font-weight: 500;
+    }
+
+    .flavors-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        line-height: 1.8;
+    }
+
+    .flavors-item{
+        padding: 5px;
+        text-align: center;
+        margin: 5px 20px;
+        padding: 15px 50px;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border: solid 8px #F6C270;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: #303036;
+    }
+
+    .flavor-title{
+        font-size: 32px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .pricing-container{
+        margin: auto;
+        text-align: center;
+        margin: 35px;
+        justify-content: center;
+    }
+
+    .pricing-container p{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}

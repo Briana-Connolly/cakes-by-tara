@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+.navbar-container{
+    width: 100%;
+    background-color: #303036;
+    padding: 10px;
+}
+
+.mobile-container{
+    display: flex;
+}
+
+button img{
+    height: 30px;
+    width: 30px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: auto;
+}
+
+.navbar-logo img{
+    width: 130px;
+    height: 100px;
+}
+
+.nav-links{
+  height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #F6C270;
+  text-decoration: none;
+  
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:visited {
+   color: #F6C270;
+   
+}
+
+a:hover{
+    color:#5583A6;       
+}
+
+.show-nav {
+    height: 180px;
+    text-align: center;
+}
+
+li {
+    padding: 10px 0;
+}
+
+/* Media screen size */
+@media screen and (min-width: 768px) {
+
+    .navbar-container{
+        display: flex;
+        align-items: center;
+    }
+    button {
+        display: none;
+    }
+
+    .nav-links {
+        height: auto;
+        display: flex;
+        margin-left: auto;
+        flex-direction: row;
+    }
+
+    li {
+        padding: 0 15px;
+    }
+}
+
+
+
+

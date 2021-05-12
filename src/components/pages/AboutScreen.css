@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+body{
+    background-color: #F6F1EE;
+}
+
+.about-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-imgs{
+    margin-bottom: -5px;
+}
+.woman-cake{
+    width:100%;
+    height: 30%;
+}
+
+.woman-baking{
+    height: 0;  
+}
+
+.about-text{
+    background-color: #5583A6;
+    color: #F6F1EE;
+    padding: 10px;
+    
+}
+
+.about-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.about-description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .about-container{
+        background-color: #5583A6;
+        width: 80%;
+        padding: 50px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border: solid 5px #5583A6;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .woman-cake{
+        width: 400px;
+        height: 280px;
+    }
+
+    .woman-baking{
+        width:320px;
+        height: 250px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .about-text{
+        padding: 40px;
+    }
+
+    .about-title{
+        font-size: 40px;
+    }
+
+   .about-description{
+       font-size: 20px;
+        line-height: 1.6;
+   }
+
+}

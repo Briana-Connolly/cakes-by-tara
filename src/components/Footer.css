@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+.footer-container{
+    background-color: #B1B1B4;
+    color: #F6F1EE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container img{
+    height:15px;
+    width:15px;
+    margin: 0px;
+}

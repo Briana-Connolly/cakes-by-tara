@@ -1,0 +1,93 @@
+.contact-container{
+    margin: auto;
+}
+
+.contact-title{
+    text-align: center;
+    background-color: #5583A6;
+    color: #F6F1EE;  
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 10px;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #303036;
+}
+
+input{
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: #F6F1EE;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 3px #5583A6;
+}
+
+.submit{
+    background-color: #5583A6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #F6F1EE;
+}
+
+textarea{
+    padding: 50px;
+    padding: 5px 50px 50px 5px;
+    background-color: #F6F1EE;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: solid 3px #5583A6;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .contact-container{
+        margin: auto;
+    }
+
+    .contact-title{
+        text-align: center;
+        margin: 40px 475px;
+        padding: 5;
+        border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+        border: solid 8px #5583A6;
+        font-size: 40px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 65px 250px;
+    }
+
+    label{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #303036;
+    }
+
+    input{
+        margin: 10px 0px;
+        padding: 10px;
+        border: solid 4px #5583A6;
+    }
+
+    .submit{
+        margin: 10px 400px;
+        font-size: 20px;
+    }
+
+    textarea{
+        padding: 5px 100px 100px 5px;
+        border: solid 4px #5583A6;
+    }
+}
