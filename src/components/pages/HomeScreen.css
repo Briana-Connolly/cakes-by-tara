@@ -8,19 +8,19 @@ body{
     text-align: center;
     display:flex;
     flex-direction: column;
-    align-self: flex-start;
+    
     background-color: #fadfd1;
 }
 
 
 .cake img{
-    display:block;
+    align-self: flex-start;
     width: 100%;
     height: auto;
 }
 
 .cupcake img{
-    display:block;
+    align-self: flex-start;
     width: 100%;
     height: auto;
 }
