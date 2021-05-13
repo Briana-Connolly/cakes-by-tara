@@ -8,8 +8,11 @@ body{
     text-align: center;
     display:flex;
     flex-direction: column;
-  
     background-color: #fadfd1;
+}
+
+.info{
+    align-items: flex-start;
 }
 
 .cake img{
