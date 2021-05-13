@@ -11,16 +11,16 @@ body{
     background-color: #fadfd1;
 }
 
-.info{
-    align-items: flex-start;
-}
+
 
 .cake img{
+    align-items: flex-start;
     width: 100%;
     height: auto;
 }
 
 .cupcake img{
+    align-items: flex-start;
     width: 100%;
     height: auto;
 }
