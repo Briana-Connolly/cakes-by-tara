@@ -8,16 +8,18 @@ body{
     text-align: center;
     display:flex;
     flex-direction: column;
-    align-items: flex-start;
+  
     background-color: #fadfd1;
 }
 
 .cake img{
     width: 100%;
+    height: auto;
 }
 
 .cupcake img{
     width: 100%;
+    height: auto;
 }
 
 .info{
