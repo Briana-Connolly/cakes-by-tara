@@ -39,16 +39,68 @@ input{
 }
 
 textarea{
-    padding: 50px;
     padding: 5px 50px 50px 5px;
     background-color: #F6F1EE;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     border: solid 3px #5583A6;
 }
 
+@media screen and (min-width: 750px) {
+   
+    .contact-title{
+        font-size: 60px;
+    }
+    
+    .contact-form{
+        margin: 45px 25px;
+        margin-bottom: 105px;
+    }
+    
+    label{
+        font-size: 25px;
+    }
+    
+    input{
+        margin: 15px 10px;
+        padding: 15px;
+    }
+    
+    textarea{
+        padding: 100px 80px 100px 15px;
+        background-color: #F6F1EE;
+    }
+ 
+}
+
+@media screen and (min-width: 1000px) {
+   
+    .contact-title{
+        font-size: 60px;
+    }
+    
+    .contact-form{
+        margin: 45px 25px;
+        margin-bottom: 428px;
+    }
+    
+    label{
+        font-size: 30px;
+    }
+    
+    input{
+        margin: 15px 10px;
+        padding: 15px;
+    }
+    
+    textarea{
+        padding: 100px 80px 100px 15px;
+    }
+ 
+}
 
 
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: 1200px) {
     .contact-container{
         margin: auto;
     }

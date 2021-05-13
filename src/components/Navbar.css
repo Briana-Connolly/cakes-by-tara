@@ -38,7 +38,7 @@ button {
   
 }
 
-a{
+a:link{
     color: #F6C270;
     text-decoration: none;
     font-size: 22px;
@@ -63,7 +63,7 @@ li {
 }
 
 /* Media screen size */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 762px) {
 
     .navbar-container{
         display: flex;

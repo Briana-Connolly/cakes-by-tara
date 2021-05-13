@@ -58,7 +58,7 @@ body{
     font-family: 'Pacifico', cursive;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .menu-container{
         justify-content: center;
     }

@@ -21,7 +21,7 @@
     width:100%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
     .gallery-imgs{
         display: flex;
         flex-direction: row;
