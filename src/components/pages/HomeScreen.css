@@ -12,15 +12,14 @@ body{
 }
 
 
-
 .cake img{
-    align-items: flex-start;
+    display:block;
     width: 100%;
     height: auto;
 }
 
 .cupcake img{
-    align-items: flex-start;
+    display:block;
     width: 100%;
     height: auto;
 }
