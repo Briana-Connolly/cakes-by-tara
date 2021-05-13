@@ -8,6 +8,7 @@ body{
     text-align: center;
     display:flex;
     flex-direction: column;
+    align-self: flex-start;
     background-color: #fadfd1;
 }
 
