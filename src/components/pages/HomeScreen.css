@@ -11,9 +11,11 @@ body{
     background-color: #fadfd1;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
+.cake{
+    align-items: flex-start;
+}
+
+.cupcake{
     align-items: flex-start;
 }
 .cake img{
