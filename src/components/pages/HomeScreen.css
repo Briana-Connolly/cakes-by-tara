@@ -12,11 +12,11 @@ body{
 }
 
 .cake{
-    align-items: flex-start;
+    display: block;
 }
 
 .cupcake{
-    align-items: flex-start;
+    display: block;
 }
 .cake img{
     width: 100%;
