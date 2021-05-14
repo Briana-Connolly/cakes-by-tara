@@ -11,14 +11,8 @@ body{
     background-color: #fadfd1;
 }
 
-.cake{
-    display:flex;
-    flex-direction: column;
-}
-
-.cupcake{
-    display:flex;
-    flex-direction: column;
+.info{
+    display: block;
 }
 .cake img{
     width: 100%;
