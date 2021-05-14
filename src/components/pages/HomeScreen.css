@@ -13,15 +13,14 @@ body{
 
 
 .cake img{
-    display: flex;
-    align-items: flex-start; 
-    width: 100%;
+   
+    width: 500px;
+    height: 500px;
 }
 
 .cupcake img{
-    display: flex;
-    align-items: flex-start; 
-    width: 100%;
+    width: 500px;
+    height: 500px;
 }
 
 .info{
