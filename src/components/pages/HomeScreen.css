@@ -13,14 +13,13 @@ body{
 
 
 .cake img{
-   
-    width: 500px;
-    height: 500px;
+    margin-right: auto;
+    width: 100%;
 }
 
 .cupcake img{
-    width: 500px;
-    height: 500px;
+    margin-right: auto;
+    width: 100%;
 }
 
 .info{
